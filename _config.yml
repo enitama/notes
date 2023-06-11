@@ -14,34 +14,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: tw-jekyll
-email: your-email@domain.com
-author: Dinosaur Avocado
+title: Notes
+email: 129673786+enitama@users.noreply.github.com
+author: enitama
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  An assortment of notes.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/tw-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/notes" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://vsoch.github.io" # the base hostname & protocol for your site
+url: "https://enitama.github.io" # the base hostname & protocol for your site
 
 # Keywords (space separated)
-keywords: "documentation theme"
+keywords: "notes"
 
 # Add colorful permalinks to headers
 # change colors in _includes/permalinks.html
 add_permalinks: true
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-support: https://github.com/vsoch/tw-jekyll/issues
-repo: https://github.com/vsoch/tw-jekyll
-github_user: vsoch
-github_repo: tw-jekyll
+support: https://github.com/enitama/notes/issues
+repo: https://github.com/enitama/notes
+github_user: enitama
+github_repo: notes
 # discord: https://community.discord.com
 
 # If you have a logo, put here to include in meta tags
@@ -72,15 +68,15 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
-  docs:
+  notes:
     output: true
     permalink: /:collection/:path
 
 # Defaults
 defaults:
   - scope:
-      path: "_docs"
-      type: "docs"
+      path: "_notes"
+      type: "notes"
     values:
       layout: page
   -
